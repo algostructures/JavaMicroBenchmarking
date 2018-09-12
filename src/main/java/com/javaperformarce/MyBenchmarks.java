@@ -1,4 +1,3 @@
-/*
 package com.javaperformarce;
 
 import org.openjdk.jmh.annotations.Benchmark;
@@ -10,10 +9,8 @@ import java.util.stream.IntStream;
 
 
 public class MyBenchmarks {
-    */
-/*
-    BenchMarking Demo
-    *//*
+
+
 
     @Benchmark
     @Fork(value = 1, warmups = 1)
@@ -29,4 +26,3 @@ public class MyBenchmarks {
         IntStream.range(1, 1_000_000).unordered().parallel().distinct().toArray();
     }
 }
-*/
